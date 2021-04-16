@@ -18,7 +18,7 @@ export default function Weather() {
     <div className="Weather">
       <form onsubmit="handleSubmit(event)">
         <div className="row">
-          <div className="col-6">
+          <div className="col-6 flex-parent jc-center">
             <input
               type="search"
               placeholder="Enter city name"
@@ -26,11 +26,7 @@ export default function Weather() {
               autocomplete="off"
               className="form-control-input shadow-sm"
             />
-          </div>
-          <div className="col-6">
             <input type="submit" value="Search" className="btn btn-primary" />
-          </div>
-          <div className="col-6">
             <button className="btn btn-success">Current</button>
           </div>
         </div>

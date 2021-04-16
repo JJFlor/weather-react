@@ -13,33 +13,34 @@ body {
   padding: 15px;
   border-radius: 10px;
 }
-
+.flex-parent {
+  display: flex;
+}
+.jc-center {
+  justify-content: center;
+}
 .form-control-input {
+  margin: 10px 10px 5px;
   border-radius: 5px;
-  height: 20px;
-  line-height: 30px;
-  width: 250px;
-  vertical-align: middle;
+  width: 350px;
   padding: 5px 10px 5px 10px !important;
   font-size: 1rem;
   font-weight: 600;
   color: black;
   border: 2px solid #52057b;
-  box-shadow: 4px 4px 4px #8675a9;
-  box-sizing: unset;
 }
 
 .btn-primary {
-  margin: 2px 30px;
+  margin: 10px 10px 5px;
+  padding: 5px 10px 5px 10px !important;
   background-color: #52057b;
   color: white;
   border: none;
   border-radius: 5px;
-  padding: 11px;
   text-align: center;
   width: 90px;
+  height: 37px;
   font-size: 15px;
-  box-shadow: 4px 4px 4px #8675a9;
 }
 .btn-primary:hover {
   cursor: pointer;
@@ -49,16 +50,16 @@ body {
 }
 
 .btn-success {
-  margin: 15px 285px;
+  margin: 10px 10px 5px;
+  padding: 5px 10px 5px 10px !important;
   background-color: #52057b;
   color: white;
   border: none;
   border-radius: 5px;
-  padding: 11px;
   text-align: center;
   width: 90px;
+  height: 37px;
   font-size: 15px;
-  box-shadow: 4px 4px 4px #8675a9;
 }
 .btn-success:hover {
   cursor: pointer;
