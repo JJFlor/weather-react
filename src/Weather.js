@@ -15,7 +15,7 @@ export default function Weather() {
     temperature: "15"
   };
   return (
-    <div className="Weather">
+    <div className="cityW">
       <form onsubmit="handleSubmit(event)">
         <div className="row">
           <div className="col-6 flex-parent jc-center">
@@ -31,7 +31,6 @@ export default function Weather() {
           </div>
         </div>
       </form>
-      <div className="cityW">
         <ul className="currentStatus">
           <li>{weatherData.city}</li>
           <br />
@@ -55,15 +54,11 @@ export default function Weather() {
               </span>
             </div>
           </div>
-
-          <div className="col-6">
-            <ul className="humid-wind">
+          <ul className="humid-wind">
               <li>Humidity: {weatherData.humidity} %</li>
               <br />
               <li>Wind: {weatherData.wind} km/h</li>
-            </ul>
-          </div>
-        </div>
+         </ul>
       </div>
 
       <table className="five-days">
