@@ -6,11 +6,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>
-          Hello there!
-        </h2>
-        <Weather city="Barcelona"/>
+        <Weather /*city="Barcelona"*//>
       </header>
+      <bottom>
+         <small>
+          Open-source code, by Júlia Jaile from She Codes
+        </small>
+      </bottom>
     </div>
   );
 }

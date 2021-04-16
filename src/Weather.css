@@ -1,0 +1,82 @@
+.currentStatus {
+  list-style: none;
+  font-family: "Arvo", serif;
+  text-align: justify;
+  padding: 10px;
+  color: black;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+.cityW {
+  border: 2px solid #52057b;
+  box-shadow: 4px 4px 4px #8675a9;
+  border-radius: 5px;
+  margin: 0 auto;
+  font-family: "Arvo", serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: justify;
+  line-height: 40px;
+  border-spacing: 5px 5px;
+  padding: 10px;
+}
+.weather-icon {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+.humid-wind {
+  text-align: center;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  margin: 0;
+  padding: 10px;
+  font-family: "Arvo", serif;
+  border-radius: 5px;
+  border: none;
+  background-color: #8675a9;
+  color: white;
+  box-shadow: 3px 3px 3px #52057b;
+}
+.temperatureStyle {
+  display: block;
+  color: #52057b;
+  box-sizing: none;
+  text-align: left;
+  font-size: 60px;
+  line-height: 1;
+  font-weight: 400;
+}
+.units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+  font-weight: bold;
+}
+.fa-cloud-sun {
+  font-size: 40px;
+}
+.five-days {
+  width: 24.5em;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Arvo", serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 27px -6px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px#cc0e74;
+  color: #cc0e74;
+  background-image: linear-gradient(
+    to top,
+    #dad4ec 0%,
+    #dad4ec 1%,
+    #f3e7e9 100%
+  );
+}
