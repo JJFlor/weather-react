@@ -1,6 +1,8 @@
 import Weather from "./Weather";
+import Bottom from "./Bottom";
 
 import './App.css';
+import './Bottom.css';
 
 function App() {
   return (
@@ -8,11 +10,7 @@ function App() {
       <header className="App-header">
         <Weather /*city="Barcelona"*//>
       </header>
-      <bottom>
-         <small>
-           <a href="https://github.com/JJFlor/weather-react">Open-source code</a>, by <a href="https://www.linkedin.com/in/juliajaile/">Júlia Jaile</a> 👩🏽‍💻
-        </small>
-      </bottom>
+      <Bottom />
     </div>
   );
 }

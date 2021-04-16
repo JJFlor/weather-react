@@ -61,17 +61,16 @@
   font-size: 40px;
 }
 .five-days {
-  width: 24.5em;
+  width: 28.5em;
   text-align: center;
   vertical-align: middle;
   font-family: "Arvo", serif;
   font-size: 20px;
   font-weight: bold;
-  padding: 20px;
-  margin: 27px -6px;
+  padding: 10px;
+  margin: 0 auto;
   border: none;
   border-radius: 10px;
-  box-shadow: 4px 4px 4px#cc0e74;
   color: #cc0e74;
   background-image: linear-gradient(
     to top,
@@ -79,4 +78,8 @@
     #dad4ec 1%,
     #f3e7e9 100%
   );
+}
+.week-Days {
+  vertical-align: bottom;
+  display: table-row-group;
 }
