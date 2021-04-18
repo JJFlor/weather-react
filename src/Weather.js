@@ -13,7 +13,6 @@ export default function Weather() {
      setLoaded(true);
      setWeather({
       city: response.data.name,
-      date: response.data.dt,
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
       humidity: response.data.main.humidity,
@@ -60,35 +59,35 @@ export default function Weather() {
           <th scope="col">
             Mon
             <br />
-            <ReactAnimatedWeather icon="SNOW" color="#cc0e74" size="40" animate="true" />
+            <ReactAnimatedWeather icon="SNOW" color="#8675a9" size="40" animate="true" />
             <br />
             19º / 11º
           </th>
           <th scope="col">
             Tue
             <br />
-            <ReactAnimatedWeather icon="CLEAR_DAY" color="#cc0e74" size="40" animate="true" />
+            <ReactAnimatedWeather icon="CLEAR_DAY" color="#8675a9" size="40" animate="true" />
             <br />
             13º / 7º
           </th>
           <th scope="col">
             Wed
             <br />
-            <ReactAnimatedWeather icon="PARTLY_CLOUDY_DAY" color="#cc0e74" size="40" animate="true" />
+            <ReactAnimatedWeather icon="PARTLY_CLOUDY_DAY" color="#8675a9" size="40" animate="true" />
             <br />
             11º / 4º
           </th>
           <th scope="col">
             Thu
             <br />
-            <ReactAnimatedWeather icon="CLOUDY" color="#cc0e74" size="40" animate="true" />
+            <ReactAnimatedWeather icon="CLOUDY" color="#8675a9" size="40" animate="true" />
             <br />
             11º / 6º
           </th>
           <th scope="col">
             Fri
             <br />
-            <ReactAnimatedWeather icon="RAIN" color="#cc0e74" size="40" animate="true" />
+            <ReactAnimatedWeather icon="RAIN" color="#8675a9" size="40" animate="true" />
             <br />
             11º / 4º
           </th>
@@ -102,11 +101,7 @@ export default function Weather() {
       {form}
         <ul className="currentStatus">
           <li> 
-            {weather.city}
-          </li>
-            <br />
-          <li>
-            <strong>Last update:</strong> {weather.date}
+            <strong>{weather.city}</strong>
           </li>
             <br />
           <li>  
@@ -116,7 +111,7 @@ export default function Weather() {
         <div className="row">
           <div className="col-6">
             <div>
-              <img src={weather.icon} alt={weather.description} />
+              <img className="weatherIcon" src={weather.icon} alt={weather.description} />
             </div>
             <div className="temperatureStyle">
               <strong> {Math.round(weather.temperature)}</strong>
