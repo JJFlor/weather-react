@@ -33,8 +33,7 @@ export default function Weather() {
 
     let form = (
       <form onSubmit= {handleSubmit}>
-        <div className="row">
-          <div className="col-6 flex-parent jc-center">
+          <div className="col-9">
             <input
               type="search"
               placeholder="Enter city name"
@@ -42,10 +41,12 @@ export default function Weather() {
               onChange={updateCity}
               className="form-control-input shadow-sm"
             />
-            <input type="submit" value="Search" className="btn btn-primary" />
-            <button className="btn btn-success">Current</button>
           </div>
-        </div>
+          <div className="col-3">
+            <button className="btn btn-primary">
+              Search
+            </button>
+          </div>
       </form>
     );
 
@@ -120,15 +121,17 @@ export default function Weather() {
               </span>
             </div>
           </div>
-          <ul className="humid-wind">
-              <li>
-                Humidity: {weather.humidity} %
-              </li>
-              <br />
-              <li>
-               Wind: {weather.wind} km/h
-              </li>
-         </ul>
+          <div className="col-6">
+            <ul className="humid-wind">
+               <li>
+                  Humidity: {weather.humidity} %
+               </li>
+                <br />
+               <li>
+                 Wind: {weather.wind} km/h
+               </li>
+            </ul>
+         </div>  
       </div>
       {table}
     </div>
