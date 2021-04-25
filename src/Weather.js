@@ -33,20 +33,22 @@ export default function Weather() {
 
     let form = (
       <form onSubmit= {handleSubmit}>
+        <div className="row">
           <div className="col-9">
             <input
               type="search"
-              placeholder="Enter city name"
-              autoComplete="off"
+              placeholder="Enter a city..."
+              autoFocus="on"
               onChange={updateCity}
-              className="form-control-input shadow-sm"
+              className="form-control"
             />
           </div>
           <div className="col-3">
-            <button className="btn btn-primary">
+            <button className="btn btn-primary w-100">
               Search
             </button>
           </div>
+        </div>
       </form>
     );
 
@@ -101,32 +103,34 @@ export default function Weather() {
     <div className="cityW">
       {form}
         <ul className="currentStatus">
-          <li> 
+          <li className="currentCity"> 
             <strong>{weather.city}</strong>
           </li>
-            <br />
           <li>  
             <strong>Description:</strong> {weather.description}
           </li>
         </ul>
-        <div className="row">
-          <div className="col-6">
-            <div>
-              <img className="weatherIcon" src={weather.icon} alt={weather.description} />
+        <div className="row mt-3">
+           <div className="col-3">
+               <img 
+              className="weatherIcon" 
+              src={weather.icon} 
+              alt={weather.description} 
+              />  
+           </div>
+           <div className="col-6 temperatureStyle">
+                  <strong> 
+                    {Math.round(weather.temperature)}
+                  </strong>
+                  <span className="units">
+                    <a href="/">°C</a> | <a href="/">°F</a>
+                  </span>
             </div>
-            <div className="temperatureStyle">
-              <strong> {Math.round(weather.temperature)}</strong>
-              <span className="units">
-                <a href="/">°C</a> | <a href="/">°F</a>
-              </span>
-            </div>
-          </div>
           <div className="col-6">
             <ul className="humid-wind">
                <li>
                   Humidity: {weather.humidity} %
                </li>
-                <br />
                <li>
                  Wind: {weather.wind} km/h
                </li>

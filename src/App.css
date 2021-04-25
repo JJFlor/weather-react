@@ -5,37 +5,27 @@ body {
     #c5c1ff 56%,
     #ffbac3 100%
   );
-  font-family: "Arvo", serif;
 }
 .App {
-  max-width: 600px;
+  font-family: "Arvo", serif;
+  max-width: 700px;
   margin: 30px auto;
-  border: 5px;
-  padding: 15px;
-  border-radius: 10px;
+  padding: 12px;
 }
 
-.form-control-input {
-  margin: 10px 10px 5px;
+.form-control {
+  margin-bottom: 20px;
   border-radius: 5px;
-  width: 350px;
-  padding: 5px 10px 5px 10px !important;
   font-size: 1rem;
   font-weight: 600;
-  color: black;
-  border: 2px solid #52057b;
 }
 
 .btn-primary {
-  margin: 10px 10px 5px;
-  padding: 5px 10px 5px 10px !important;
+  margin-bottom: 10px;
   background-color: #52057b;
   color: white;
   border: none;
   border-radius: 5px;
-  text-align: center;
-  width: 90px;
-  height: 37px;
   font-size: 15px;
 }
 .btn-primary:hover {
@@ -43,4 +33,9 @@ body {
   transition: 200ms ease-in-out;
   color: white;
   background-color: #8675a9;
+}
+footer {
+  font-size: 13px;
+  color: #52057b;
+  margin: 10px 0;
 }

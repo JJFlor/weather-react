@@ -1,15 +1,21 @@
 import Weather from "./Weather";
-import Bottom from "./Bottom";
 
 import './App.css';
-import './Bottom.css';
+
 
 function App() {
   return (
     <div className="App">
       <div className="container">
         <Weather />
-        <Bottom />
+        <footer>
+          <a href="https://github.com/JJFlor/weather-react" target="_blank">
+            Open-source code
+            </a>
+            , by <a href="https://www.linkedin.com/in/juliajaile/" target="_blank">
+              Júlia Jaile
+              </a> 👩🏽‍💻
+        </footer>
       </div>
     </div>
   );

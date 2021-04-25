@@ -1,56 +1,51 @@
+.cityW {
+  font-family: "Arvo", serif;
+  border: 2px solid #52057b;
+  box-shadow: 4px 4px 4px #8675a9;
+  border-radius: 4px;
+  margin: 30px auto;
+  padding: 12px;
+}
+
 .currentStatus {
   text-transform: capitalize;
   list-style: none;
-  font-family: "Arvo", serif;
   text-align: justify;
-  padding: 20px;
-  color: black;
+  padding: 5px;
+  color: #52057b;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
-  margin-bottom: 0;
 }
-.cityW {
-  border: 2px solid #52057b;
-  box-shadow: 4px 4px 4px #8675a9;
-  border-radius: 5px;
-  margin: 0 auto;
-  font-family: "Arvo", serif;
+.currentCity {
   font-size: 30px;
-  font-weight: bold;
-  text-align: justify;
-  line-height: 40px;
-  border-spacing: 5px 5px;
-  padding: 10px;
+  font-weight: 400;
 }
 .weatherIcon {
   margin-left: 10px;
   height: 100px;
   width: 100px;
 }
+
 .humid-wind {
   text-align: center;
   list-style: none;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 100;
-  line-height: 19px;
-  width: 130px;
-  margin: -78px 389px 30px;
-  padding: 13px;
-  font-family: "Arvo", serif;
+  line-height: 25px;
+  width: 150px;
+  margin: -85px 410px 30px;
+  padding: 10px;
   border-radius: 5px;
   border: none;
   background-color: #8675a9;
   color: white;
 }
+
 .temperatureStyle {
-  display: block;
-  margin-left: 16px;
   color: #52057b;
   text-align: left;
-  font-size: 60px;
-  line-height: 1;
-  font-weight: 400;
+  font-size: 65px;
 }
 .units {
   color: #52057b;
@@ -58,6 +53,7 @@
   font-size: 16px;
   top: -34px;
   font-weight: bold;
+  margin-left: 5px;
 }
 .five-days {
   width: 28.5em;
