@@ -21,10 +21,10 @@
   font-size: 30px;
   font-weight: 400;
 }
-.weatherIcon {
-  margin-left: 10px;
-  height: 100px;
-  width: 100px;
+.canvas {
+  margin-right: 10px;
+  display: inline-block;
+  margin-top: 5px;
 }
 
 .humid-wind {
