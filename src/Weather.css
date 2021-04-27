@@ -55,25 +55,3 @@
   font-weight: bold;
   margin-left: 5px;
 }
-.five-days {
-  width: 28.5em;
-  text-align: center;
-  vertical-align: middle;
-  font-family: "Arvo", serif;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 10px;
-  margin: 0 auto;
-  border: none;
-  border-radius: 10px;
-  color: #52057b;
-  background-image: linear-gradient(
-    to top,
-    #dad4ec 0%,
-    #dad4ec 1%,
-    #f3e7e9 100%
-  );
-}
-.week-Days {
-  vertical-align: bottom;
-}

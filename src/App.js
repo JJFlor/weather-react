@@ -9,12 +9,9 @@ function App() {
       <div className="container">
         <Weather defaultCity="Barcelona"/>
         <footer>
-          <a href="https://github.com/JJFlor/weather-react" target="_blank">
-            Open-source code
-            </a>
-            , by <a href="https://www.linkedin.com/in/juliajaile/" target="_blank">
-              Júlia Jaile
-              </a> 👩🏽‍💻
+          Project coded by <a href="https://www.linkedin.com/in/juliajaile/" target="_blank">
+              Júlia Jaile </a> 👩🏽‍💻, <a href="https://github.com/JJFlor/weather-react" target="_blank">
+            open-sourced on GitHub </a> and <a href="https://weather-react-web-801652.netlify.app">hosted on Netlify</a>   
         </footer>
       </div>
     </div>
