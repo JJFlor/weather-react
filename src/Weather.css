@@ -11,15 +11,17 @@
   text-transform: capitalize;
   list-style: none;
   text-align: justify;
-  padding: 5px;
   color: #52057b;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
+  margin: 0;
+  padding: 5px;
 }
 .currentCity {
   font-size: 30px;
   font-weight: 400;
+  line-height: 29px;
 }
 .WeatherInfo canvas {
   margin-left: 20px;
@@ -28,13 +30,12 @@
 }
 
 .humid-wind {
+  position: relative;
   text-align: center;
   list-style: none;
-  font-size: 16px;
-  font-weight: 100;
   line-height: 25px;
   width: 150px;
-  margin: -85px 410px 30px;
+  margin: -84px 376px 30px;
   padding: 10px;
   border-radius: 5px;
   border: none;
