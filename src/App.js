@@ -7,6 +7,9 @@ function App() {
   return (
     <div className="App">
       <div className="container">
+        <div className="background_img">
+          <img src="./raindrops.jpg" alt="raindrops"/>
+        </div>
         <Weather defaultCity="Barcelona"/>
         <footer>
           Project coded by <a href="https://www.linkedin.com/in/juliajaile/" rel="noreferrer" target="_blank">
