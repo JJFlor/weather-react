@@ -27,6 +27,7 @@
 }
 
 footer {
+  position: relative;
   font-size: 13px;
   color: #52057b;
   margin: 10px 0;
