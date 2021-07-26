@@ -32,3 +32,9 @@ footer {
   color: #52057b;
   margin: 10px 0;
 }
+
+@media (max-width: 576px) {
+  footer {
+    font-size: 10px;
+  }
+}

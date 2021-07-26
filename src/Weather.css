@@ -70,8 +70,20 @@
   .cityW {
     max-width: 98%;
   }
-
   .search-button {
     max-width: 90%;
+  }
+  .currentStatus {
+    font-size: 17px;
+  }
+  .currentCity {
+    font-size: 26px;
+  }
+  .temperatureStyle {
+    font-size: 55px;
+    margin-left: 57px;
+  }
+  .units {
+    font-size: 13px;
   }
 }
