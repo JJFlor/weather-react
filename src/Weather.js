@@ -43,17 +43,17 @@ export default function Weather(props) {
     let form = (
       <form onSubmit= {handleSubmit}>
         <div className="row">
-          <div className="col-9">
+          <div className="col-8">
             <input
               type="search"
-              placeholder="Enter a city..."
+              placeholder="Enter a city name..."
               autoFocus="on"
               onChange={updateCity}
               className="form-control"
             />
           </div>
-          <div className="col-3">
-            <button className="btn btn-primary w-100">
+          <div className="col-4">
+            <button className="search-button w-100">
               Search
             </button>
           </div>
