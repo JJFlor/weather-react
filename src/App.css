@@ -1,3 +1,10 @@
+footer {
+  position: relative;
+  font-size: 13px;
+  color: #52057b;
+  margin: 10px 16px;
+}
+
 .background_img {
   opacity: 0.1;
   background-repeat: no-repeat;
@@ -24,13 +31,6 @@
   border-radius: 5px;
   font-size: 1rem;
   font-weight: 600;
-}
-
-footer {
-  position: relative;
-  font-size: 13px;
-  color: #52057b;
-  margin: 10px 16px;
 }
 
 @media (max-width: 576px) {
