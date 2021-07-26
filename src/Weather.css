@@ -68,10 +68,12 @@
 
 @media (max-width: 576px) {
   .cityW {
-    max-width: 98%;
+    max-width: 95%;
+    margin: 0 auto;
   }
   .search-button {
     max-width: 90%;
+    padding: 6px;
   }
   .currentStatus {
     font-size: 17px;
